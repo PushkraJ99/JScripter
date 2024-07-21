@@ -70,11 +70,11 @@ go install github.com/ffuf/ffuf@latest
 1. Create a file containing the list of target URLs (e.g., urls.txt).
 2. Run the script:
 
-```python JScripter.py -f urls.txt -d saved_js_files -t 10```
+```python3 JScripter.py -f urls.txt -d saved_js_files -t 10```
 
 ### From a Single URL
 1. Run the script with a single URL:
-```python JScripter.py -u https://example.com -d saved_js_files -t 10```
+```python3 JScripter.py -u https://example.com -d saved_js_files -t 10```
 
 ## Command-Line Arguments
 * -f, --file: File containing list of target URLs.
@@ -84,7 +84,7 @@ go install github.com/ffuf/ffuf@latest
 * -t, --threads: Number of threads to use for concurrent processing (default is 5).
 
 ## 🤝 Contributing
-Contributions are Welcome! If you'd like to Contribute to `paramspider` Please Follow These Steps
+Contributions are Welcome! If you'd like to Contribute to `JScripter` Please Follow These Steps
 
 1. Fork the Repository.
 2. Create a New Branch.
@@ -107,10 +107,10 @@ Contributions are Welcome! If you'd like to Contribute to `paramspider` Please F
 ---
 ### 🤗 JUST 4 FUN
 ### ✨ Stargazers
-[![Stargazers repo roster for @PushkraJ99/JScripter](https://reporoster.com/stars/dark/notext/PushkraJ99/ParamSpider)](https://github.com/PushkraJ99/ParamSpider/stargazers)
+[![Stargazers repo roster for @PushkraJ99/JScripter](https://reporoster.com/stars/dark/notext/PushkraJ99/JScripter)](https://github.com/PushkraJ99/JScripter/stargazers)
 
 ### ☢️ Forkers 
-[![Forkers repo roster for @PushkraJ99/JScripter](https://reporoster.com/forks/dark/notext/PushkraJ99/ParamSpider)](https://github.com/PushkraJ99/ParamSpider/network/members)
+[![Forkers repo roster for @PushkraJ99/JScripter](https://reporoster.com/forks/dark/notext/PushkraJ99/JScripter)](https://github.com/PushkraJ99/JScripter/network/members)
 
 ## 🐍 [Snake4Readme](https://github.com/PushkraJ99/Snake4Readme)
 
