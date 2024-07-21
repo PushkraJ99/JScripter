@@ -23,6 +23,7 @@ This tool is intended only for educational purposes and for testing in
 corporate environments. https://twitter.com/nav1n0x/ and https://github.com/ifconfig-me take
 no responsibility for the misuse of this code. Use it at your own risk.
 Do not attack a target you don't have permission to engage with.
+                            with <3 Upgraded by PushkraJ99 :}
 """
 
 def print_banner():
@@ -73,8 +74,8 @@ def run_command(command):
 def process_url(url, save_dir, silent):
     js_urls = set()
     if not silent:
-        print(f"{Fore.CYAN}[*] Running GAU on {url}")
-    gau_output = run_command(f"echo {url} | gau | grep -iE '\\.js$' | sort -u")
+        print(f"{Fore.CYAN}[*] Running GAU Plus on {url}")
+    gau_output = run_command(f"echo {url} | gauplus -subs -t 50 | grep -iE '\\.js$' | sort -u")
     gau_js_urls = gau_output.splitlines()
     js_urls.update(gau_js_urls)
     
