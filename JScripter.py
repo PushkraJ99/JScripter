@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import argparse
 import requests
 from bs4 import BeautifulSoup
